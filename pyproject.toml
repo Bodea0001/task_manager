@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "task-manager"
+version = "0.1.0"
+description = ""
+authors = ["Bogdan Objilean <bodea0001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+uvicorn = {extras = ["standart"], version = "^0.23.2"}
+psycopg2 = "^2.9.7"
+sqlalchemy = "^2.0.21"
+email-validator = "^2.0.0.post2"
+python-multipart = "^0.0.6"
+alembic = "^1.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
